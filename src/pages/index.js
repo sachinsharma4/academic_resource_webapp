@@ -1,7 +1,11 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Link from 'next/link'
+
 import { Inter } from '@next/font/google'
 import styles from '@/styles/Home.module.css'
+import {GiDna2} from  'react-icons/gi';
+import {ImBook,ImLeaf} from  'react-icons/im';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -14,6 +18,27 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <main className=" grid grid-cols-2 gap-2 my-44 mx-60" >
+<div className="bg-blue-600 py-10 w-80 m-4 text-white flex flex-wrap flex-col content-center  p-5 rounded-xl">
+<Link href="/"></Link><GiDna2 className='block ml-4 text-3xl'/>
+  <span>practicals</span>
+  <span>comming soon</span>
+</div>
+<div className="bg-blue-600 py-10 m-4 w-80 text-white flex-wrap flex flex-col content-center  p-5 rounded-xl">
+<Link href="/"></Link><ImBook className='ml-1 text-3xl'/>
+<span>books</span>
+<span>comming soon</span>
+</div>
+<div className="bg-blue-600 py-10 m-4  w-80 text-white flex-wrap flex flex-col content-center  p-5 rounded-xl">
+<Link href="/pyq/1"><GiDna2 className='ml-8 text-3xl'/>
+  <span>previous paper</span></Link>
+</div>
+<div className="bg-blue-600 py-10 m-4 w-80 text-white flex-wrap flex flex-col content-center  p-5 rounded-xl">
+<Link href="/" ></Link><ImLeaf className='ml-8 text-3xl'/>
+  <span>theory notes</span>
+  <span>comming soon</span>
+</div>
+      </main>
       
     </>
   )
