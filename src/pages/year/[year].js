@@ -15,4 +15,4 @@ function Year() {
   )
 }
 
-export default year
+export default Year
