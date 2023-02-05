@@ -2,7 +2,7 @@ import { useRouter } from 'next/router'
 import React from 'react'
 import Link from 'next/link'
 
-function year() {
+function Year() {
      const router= useRouter();
     const {year}=router.query;
   return (
