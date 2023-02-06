@@ -3,7 +3,7 @@ import * as mongoose from 'mongoose';
 import Pyq from 'pyq/pyqschema';
 import connectdb from 'pyq/middelware';
 
-
+mongoose.set('strictQuery', false);
 
 
 const handler = async (req,res) => {
