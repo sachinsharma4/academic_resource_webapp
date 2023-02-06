@@ -20,7 +20,7 @@ const {Year} = router.query;
       <main className='flex flex-col content-center justify-center items-center p-10'>
         {
           props.data.map((item)=>{
-            return(<a href={item.link} download><div className="bg-blue-600 py-10 m-4 w-80 text-white text-center  p-5 rounded-xl">
+            return(<a key={item.subject} href={item.link} download><div className="bg-blue-600 py-10 m-4 w-80 text-white text-center  p-5 rounded-xl">
            <span>semester: {item.semester}</span><br/>
             <span>subjects: {item.subject}</span>
            
