@@ -25,7 +25,7 @@ export default function Nav() {
           <nav className='flex items-center px-4 bg-blue-500 justify-start '>
             <button onClick={hi} className='lg:hidden bg-inherited text-white'>&#9776;</button>
 
-            <h1 className="text-3xl font-bold text-left text-white px-6 ">
+            <h1 className="md:text-3xl font-bold text-left text-white px-6 ">
               Academic Resource
             </h1>
             <ul className='hidden  text-white bg-blue-500 px-6 lg:flex absolute right-0  items-center  '>
