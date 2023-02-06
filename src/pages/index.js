@@ -18,23 +18,23 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className=" grid grid-cols-2 gap-2 my-44 mx-60" >
-        <Link href="/"><div className="bg-blue-600 py-10 w-80 m-4 text-white flex flex-wrap flex-col content-center  p-5 rounded-xl">
+      <main className=" grid grid-cols-2 gap-2 my-44 lg:mx-60" >
+        <Link href="/"><div className="bg-blue-600 py-10 lg:w-80 m-4 text-white flex flex-wrap flex-col content-center  p-5 rounded-xl">
           <GiDna2 className='block ml-4 text-3xl' />
           <span>practicals</span>
           <span>comming soon</span>
         </div></Link>
-        <Link href="/"><div className="bg-blue-600 py-10 m-4 w-80 text-white flex-wrap flex flex-col content-center  p-5 rounded-xl">
+        <Link href="/"><div className="bg-blue-600 py-10 m-4 lg:w-80 text-white flex-wrap flex flex-col content-center  p-5 rounded-xl">
           <ImBook className='ml-1 text-3xl' />
           <span>books</span>
           <span>comming soon</span>
         </div></Link>
 
-        <Link href="/pyq/2"><div className="bg-blue-600 py-10 m-4  w-80 text-white flex-wrap flex flex-col content-center  p-5 rounded-xl">
+        <Link href="/pyq/2"><div className="bg-blue-600 py-10 m-4  lg:w-80 text-white flex-wrap flex flex-col content-center  p-5 rounded-xl">
           <GiDna2 className='ml-8 text-3xl' />
           <span>previous paper</span>
         </div></Link>
-        <Link href="/" ><div className="bg-blue-600 py-10 m-4 w-80 text-white flex-wrap flex flex-col content-center  p-5 rounded-xl">
+        <Link href="/" ><div className="bg-blue-600 py-10 m-4 lg:w-80 text-white flex-wrap flex flex-col content-center  p-5 rounded-xl">
           <ImLeaf className='ml-8 text-3xl' />
           <span>theory notes</span>
           <span>comming soon</span>
